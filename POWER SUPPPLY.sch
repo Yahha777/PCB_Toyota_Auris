@@ -1,0 +1,1044 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 14 18
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L auris-rescue:MC34063AD-Regulator_Switching U3
+U 1 1 5FEE170D
+P 3350 5750
+F 0 "U3" H 3350 6217 50  0000 C CNN
+F 1 "MC34063AD" H 3350 6126 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 3400 5300 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub_link/Collateral/MC34063A-D.PDF" H 3850 5650 50  0001 C CNN
+	1    3350 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:R-Device R91
+U 1 1 5FEE179B
+P 3900 5100
+F 0 "R91" H 3970 5146 50  0000 L CNN
+F 1 "0,22R" H 3970 5055 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3830 5100 50  0001 C CNN
+F 3 "~" H 3900 5100 50  0001 C CNN
+	1    3900 5100
+	0    1    1    0   
+$EndComp
+$Comp
+L auris-rescue:R-Device R92
+U 1 1 5FEE1836
+P 3900 5650
+F 0 "R92" H 3970 5696 50  0000 L CNN
+F 1 "100R" H 3970 5605 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3830 5650 50  0001 C CNN
+F 3 "~" H 3900 5650 50  0001 C CNN
+	1    3900 5650
+	0    1    1    0   
+$EndComp
+$Comp
+L auris-rescue:R-Device R89
+U 1 1 5FEE1858
+P 1350 1550
+F 0 "R89" H 1420 1596 50  0000 L CNN
+F 1 "0R" H 1420 1505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1280 1550 50  0001 C CNN
+F 3 "~" H 1350 1550 50  0001 C CNN
+	1    1350 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:R-Device R94
+U 1 1 5FEE1876
+P 6950 3550
+F 0 "R94" H 7020 3596 50  0000 L CNN
+F 1 "1k" H 7020 3505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6880 3550 50  0001 C CNN
+F 3 "~" H 6950 3550 50  0001 C CNN
+	1    6950 3550
+	0    1    1    0   
+$EndComp
+$Comp
+L auris-rescue:R-Device R93
+U 1 1 5FEE18B4
+P 4200 6050
+F 0 "R93" H 4270 6096 50  0000 L CNN
+F 1 "47k" H 4270 6005 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4130 6050 50  0001 C CNN
+F 3 "~" H 4200 6050 50  0001 C CNN
+	1    4200 6050
+	0    1    1    0   
+$EndComp
+$Comp
+L auris-rescue:R-Device R90
+U 1 1 5FEE18D8
+P 3800 6300
+F 0 "R90" H 3870 6346 50  0000 L CNN
+F 1 "2k4" H 3870 6255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3730 6300 50  0001 C CNN
+F 3 "~" H 3800 6300 50  0001 C CNN
+	1    3800 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:LM2776-Regulator_SwitchedCapacitor U4
+U 1 1 5FEE1E49
+P 7650 3650
+F 0 "U4" H 7750 4050 50  0000 L CNN
+F 1 "LM2776" H 7750 3950 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-6" H 7700 3300 50  0001 L CNN
+F 3 "http://www.ti.com/lit/ds/symlink/lm2776.pdf" H 5800 4900 50  0001 C CNN
+	1    7650 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:D_Schottky-Device D10
+U 1 1 5FEE1483
+P 4450 5900
+F 0 "D10" H 4450 5684 50  0000 C CNN
+F 1 "SS54B" H 4450 5775 50  0000 C CNN
+F 2 "Diode_SMD:D_2512_6332Metric_Pad1.52x3.35mm_HandSolder" H 4450 5900 50  0001 C CNN
+F 3 "~" H 4450 5900 50  0001 C CNN
+	1    4450 5900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L auris-rescue:D_Schottky-Device D7
+U 1 1 5FEE1599
+P 1650 1100
+F 0 "D7" H 1650 884 50  0000 C CNN
+F 1 "SS54B" H 1650 975 50  0000 C CNN
+F 2 "Diode_SMD:D_2512_6332Metric_Pad1.52x3.35mm_HandSolder" H 1650 1100 50  0001 C CNN
+F 3 "~" H 1650 1100 50  0001 C CNN
+	1    1650 1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L auris-rescue:D_Schottky-Device D9
+U 1 1 5FEE15CB
+P 4150 1550
+F 0 "D9" H 4150 1766 50  0000 C CNN
+F 1 "SS54B" H 4150 1675 50  0000 C CNN
+F 2 "Diode_SMD:D_2512_6332Metric_Pad1.52x3.35mm_HandSolder" H 4150 1550 50  0001 C CNN
+F 3 "~" H 4150 1550 50  0001 C CNN
+	1    4150 1550
+	0    1    1    0   
+$EndComp
+$Comp
+L xl1509-5.0:XL1509-5.0 IC?
+U 1 1 5FEE33A8
+P 2700 1600
+AR Path="/5FEE33A8" Ref="IC?"  Part="1" 
+AR Path="/5FEE1630/5FEE33A8" Ref="IC15"  Part="1" 
+F 0 "IC15" H 3025 2273 50  0000 C CNN
+F 1 "XL1509-5.0" H 2700 1600 50  0001 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2700 1600 50  0001 C CNN
+F 3 "" H 2700 1600 50  0001 C CNN
+	1    2700 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:C_Small-Device C64
+U 1 1 5FEE3917
+P 2750 6300
+F 0 "C64" H 2842 6346 50  0000 L CNN
+F 1 "1n5" H 2842 6255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2750 6300 50  0001 C CNN
+F 3 "~" H 2750 6300 50  0001 C CNN
+	1    2750 6300
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:CP1_Small-Device C63
+U 1 1 5FEE39EF
+P 2100 5750
+F 0 "C63" H 2191 5796 50  0000 L CNN
+F 1 "100uF  25V" H 2191 5705 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_6.3x7.7" H 2100 5750 50  0001 C CNN
+F 3 "~" H 2100 5750 50  0001 C CNN
+	1    2100 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 5550 2800 5550
+Text GLabel 1750 5550 0    50   Input ~ 0
+VCC_12V
+Connection ~ 2100 5550
+Wire Wire Line
+	2100 5550 1750 5550
+$Comp
+L auris-rescue:GND-power #PWR0183
+U 1 1 5FEE3F71
+P 2100 5950
+F 0 "#PWR0183" H 2100 5700 50  0001 C CNN
+F 1 "GND" H 2105 5777 50  0000 C CNN
+F 2 "" H 2100 5950 50  0001 C CNN
+F 3 "" H 2100 5950 50  0001 C CNN
+	1    2100 5950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 5550 2800 5100
+Connection ~ 2800 5550
+Wire Wire Line
+	2800 5550 2100 5550
+Wire Wire Line
+	4150 5100 4150 5550
+$Comp
+L auris-rescue:L-Device L4
+U 1 1 5FEE4481
+P 4300 5550
+F 0 "L4" V 4490 5550 50  0000 C CNN
+F 1 "220uH" V 4399 5550 50  0000 C CNN
+F 2 "Inductor_SMD:L_12x12mm_H8mm" H 4300 5550 50  0001 C CNN
+F 3 "~" H 4300 5550 50  0001 C CNN
+	1    4300 5550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3750 5550 4150 5550
+Wire Wire Line
+	4050 5650 4150 5650
+Wire Wire Line
+	4150 5650 4150 5550
+Connection ~ 4150 5550
+Wire Wire Line
+	4050 5100 4150 5100
+Wire Wire Line
+	2800 5100 3750 5100
+Wire Wire Line
+	3750 5750 4450 5750
+Wire Wire Line
+	4450 5550 4450 5750
+Connection ~ 4450 5750
+Text GLabel 4650 6050 2    50   Output ~ 0
+VCC_26V
+Wire Wire Line
+	4450 6050 4650 6050
+$Comp
+L auris-rescue:CP_Small-Device C65
+U 1 1 5FEE6ED7
+P 4450 6300
+F 0 "C65" H 4538 6346 50  0000 L CNN
+F 1 "330uF 35V" H 4538 6255 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_10x12.5" H 4450 6300 50  0001 C CNN
+F 3 "~" H 4450 6300 50  0001 C CNN
+	1    4450 6300
+	1    0    0    -1  
+$EndComp
+Connection ~ 4450 6050
+Wire Wire Line
+	4450 6050 4450 6200
+Wire Wire Line
+	3750 5950 3950 5950
+Wire Wire Line
+	3950 5950 3950 6500
+Wire Wire Line
+	3950 6500 4450 6500
+Wire Wire Line
+	4450 6500 4450 6400
+Wire Wire Line
+	3950 6500 3800 6500
+Wire Wire Line
+	3350 6500 3350 6250
+Connection ~ 3950 6500
+Wire Wire Line
+	3950 6500 3950 6700
+$Comp
+L auris-rescue:GND-power #PWR0184
+U 1 1 5FEE7868
+P 3950 6700
+F 0 "#PWR0184" H 3950 6450 50  0001 C CNN
+F 1 "GND" H 3955 6527 50  0000 C CNN
+F 2 "" H 3950 6700 50  0001 C CNN
+F 3 "" H 3950 6700 50  0001 C CNN
+	1    3950 6700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2950 5950 2750 5950
+Wire Wire Line
+	2750 5950 2750 6200
+Wire Wire Line
+	2750 6400 2750 6500
+Wire Wire Line
+	2750 6500 3350 6500
+Connection ~ 3350 6500
+Wire Wire Line
+	4450 6050 4350 6050
+Wire Wire Line
+	4050 6050 3800 6050
+Wire Wire Line
+	3800 6050 3800 6150
+Connection ~ 3800 6050
+Wire Wire Line
+	3800 6050 3750 6050
+Wire Wire Line
+	3800 6450 3800 6500
+Connection ~ 3800 6500
+Wire Wire Line
+	3800 6500 3350 6500
+Wire Wire Line
+	1500 1100 1350 1100
+Wire Wire Line
+	1800 1100 1850 1100
+Connection ~ 1350 1100
+Wire Wire Line
+	1350 1100 1100 1100
+Text GLabel 1350 1900 3    50   Output ~ 0
+DC_DC_SENSE
+Wire Wire Line
+	1350 1700 1350 1900
+Wire Wire Line
+	1350 1100 1350 1400
+Text GLabel 1100 1100 0    50   Input ~ 0
+12V_IN
+Wire Wire Line
+	3700 1100 3800 1100
+Wire Wire Line
+	3800 1100 3800 1200
+Wire Wire Line
+	3700 1200 3800 1200
+Connection ~ 3800 1200
+Wire Wire Line
+	3800 1200 3800 1300
+Wire Wire Line
+	3700 1300 3800 1300
+Connection ~ 3800 1300
+Wire Wire Line
+	3800 1300 3800 1400
+Wire Wire Line
+	3700 1400 3800 1400
+Connection ~ 3800 1400
+Wire Wire Line
+	3800 1400 3800 1800
+Wire Wire Line
+	2350 1400 2200 1400
+Wire Wire Line
+	2200 1400 2200 1800
+Connection ~ 3800 1800
+Wire Wire Line
+	3800 1800 4150 1800
+$Comp
+L auris-rescue:CP_Small-Device C60
+U 1 1 5FEF0959
+P 1850 1450
+F 0 "C60" H 1938 1496 50  0000 L CNN
+F 1 "470uF 25v" H 1938 1405 50  0000 L CNN
+F 2 "Capacitor_SMD:CP_Elec_10x12.6" H 1850 1450 50  0001 C CNN
+F 3 "~" H 1850 1450 50  0001 C CNN
+	1    1850 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 1100 1850 1350
+Connection ~ 1850 1100
+Wire Wire Line
+	1850 1100 2000 1100
+Wire Wire Line
+	1850 1550 1850 1800
+Wire Wire Line
+	1850 1800 2000 1800
+Connection ~ 2200 1800
+Wire Wire Line
+	2200 1800 3800 1800
+Wire Wire Line
+	2100 5850 2100 5950
+Wire Wire Line
+	2100 5550 2100 5650
+Wire Wire Line
+	2350 1200 2250 1200
+Wire Wire Line
+	2250 1200 2250 850 
+Wire Wire Line
+	2250 850  4150 850 
+Wire Wire Line
+	4150 1700 4150 1800
+Connection ~ 4150 1800
+Wire Wire Line
+	4150 1800 4700 1800
+Wire Wire Line
+	4150 850  4150 1200
+Wire Wire Line
+	2350 1300 2150 1300
+Wire Wire Line
+	2150 1300 2150 750 
+$Comp
+L auris-rescue:L-Device L5
+U 1 1 5FEEB7EB
+P 4450 1200
+F 0 "L5" V 4640 1200 50  0000 C CNN
+F 1 "68uH" V 4549 1200 50  0000 C CNN
+F 2 "Inductor_SMD:L_12x12mm_H8mm" H 4450 1200 50  0001 C CNN
+F 3 "~" H 4450 1200 50  0001 C CNN
+	1    4450 1200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4300 1200 4150 1200
+Connection ~ 4150 1200
+Wire Wire Line
+	4150 1200 4150 1400
+Wire Wire Line
+	4700 750  4700 1200
+Wire Wire Line
+	4700 1200 4600 1200
+Wire Wire Line
+	2150 750  4700 750 
+$Comp
+L auris-rescue:CP1_Small-Device C69
+U 1 1 5FEEE682
+P 4900 1500
+F 0 "C69" H 4991 1546 50  0000 L CNN
+F 1 "100uF 6.3V" H 4991 1455 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T_Pad1.50x2.35mm_HandSolder" H 4900 1500 50  0001 C CNN
+F 3 "~" H 4900 1500 50  0001 C CNN
+	1    4900 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:C_Small-Device C67
+U 1 1 5FEEEAAE
+P 4700 1500
+F 0 "C67" H 4792 1546 50  0000 L CNN
+F 1 "1uF" H 4792 1455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4700 1500 50  0001 C CNN
+F 3 "~" H 4700 1500 50  0001 C CNN
+	1    4700 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 1200 4700 1400
+Connection ~ 4700 1200
+Wire Wire Line
+	4700 1600 4700 1800
+Connection ~ 4700 1800
+Wire Wire Line
+	5550 1800 5550 1600
+Wire Wire Line
+	4700 1800 4900 1800
+Wire Wire Line
+	5350 1600 5350 1800
+Connection ~ 5350 1800
+Wire Wire Line
+	5350 1800 5550 1800
+Wire Wire Line
+	5150 1600 5150 1800
+Connection ~ 5150 1800
+Wire Wire Line
+	5150 1800 5350 1800
+Wire Wire Line
+	4900 1600 4900 1800
+Connection ~ 4900 1800
+Wire Wire Line
+	4900 1800 5150 1800
+Wire Wire Line
+	4700 1200 4900 1200
+Wire Wire Line
+	5550 1200 5550 1400
+Wire Wire Line
+	5350 1200 5350 1400
+Connection ~ 5350 1200
+Wire Wire Line
+	5350 1200 5550 1200
+Wire Wire Line
+	5150 1200 5150 1400
+Connection ~ 5150 1200
+Wire Wire Line
+	5150 1200 5350 1200
+Wire Wire Line
+	4900 1200 4900 1400
+Connection ~ 4900 1200
+Wire Wire Line
+	4900 1200 5150 1200
+Wire Wire Line
+	5550 1200 5700 1200
+Connection ~ 5550 1200
+Wire Wire Line
+	3800 1800 3800 1950
+$Comp
+L auris-rescue:GND-power #PWR0185
+U 1 1 5FF0C3A2
+P 3800 1950
+F 0 "#PWR0185" H 3800 1700 50  0001 C CNN
+F 1 "GND" H 3805 1777 50  0000 C CNN
+F 2 "" H 3800 1950 50  0001 C CNN
+F 3 "" H 3800 1950 50  0001 C CNN
+	1    3800 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:GND-power #PWR0186
+U 1 1 5FF11F32
+P 7350 1850
+F 0 "#PWR0186" H 7350 1600 50  0001 C CNN
+F 1 "GND" H 7355 1677 50  0000 C CNN
+F 2 "" H 7350 1850 50  0001 C CNN
+F 3 "" H 7350 1850 50  0001 C CNN
+	1    7350 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:AMS1117-Regulator_Linear IC16
+U 1 1 5FEE1FA6
+P 7350 1200
+F 0 "IC16" H 7350 1442 50  0000 C CNN
+F 1 "AMS1117" H 7350 1351 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 7350 1400 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 7450 950 50  0001 C CNN
+	1    7350 1200
+	1    0    0    -1  
+$EndComp
+Text GLabel 8150 1200 2    50   Output ~ 0
+VCC_3V3
+$Comp
+L auris-rescue:C_Small-Device C77
+U 1 1 5FF1802E
+P 6850 1500
+F 0 "C77" H 6942 1546 50  0000 L CNN
+F 1 "10uF" H 6942 1455 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6850 1500 50  0001 C CNN
+F 3 "~" H 6850 1500 50  0001 C CNN
+	1    6850 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:CP1_Small-Device C80
+U 1 1 5FF180D4
+P 7900 1500
+F 0 "C80" H 7991 1546 50  0000 L CNN
+F 1 "100uF 6.3V" H 7991 1455 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T_Pad1.50x2.35mm_HandSolder" H 7900 1500 50  0001 C CNN
+F 3 "~" H 7900 1500 50  0001 C CNN
+	1    7900 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 1200 7900 1200
+Wire Wire Line
+	6700 1200 6850 1200
+Wire Wire Line
+	7900 1200 7900 1400
+Connection ~ 7900 1200
+Wire Wire Line
+	7900 1200 8150 1200
+Wire Wire Line
+	7900 1600 7900 1750
+Wire Wire Line
+	7900 1750 7350 1750
+Wire Wire Line
+	6850 1750 6850 1600
+Wire Wire Line
+	6850 1400 6850 1200
+Connection ~ 6850 1200
+Wire Wire Line
+	6850 1200 7050 1200
+Wire Wire Line
+	7350 1500 7350 1750
+Connection ~ 7350 1750
+Wire Wire Line
+	7350 1750 6850 1750
+Wire Wire Line
+	7350 1750 7350 1850
+Wire Wire Line
+	8050 3550 8350 3550
+Wire Wire Line
+	7250 3550 7100 3550
+Wire Wire Line
+	6800 3550 6700 3550
+Text GLabel 6450 3550 0    50   Input ~ 0
+VCC_5V
+Text GLabel 8650 3550 2    50   Input ~ 0
+VCC_-5V
+Wire Wire Line
+	7650 3350 7650 3300
+Wire Wire Line
+	7650 3300 6700 3300
+Wire Wire Line
+	6700 3300 6700 3550
+Connection ~ 6700 3550
+Wire Wire Line
+	6700 3550 6450 3550
+Wire Wire Line
+	7650 4050 7650 4100
+Wire Wire Line
+	7650 4100 6700 4100
+$Comp
+L auris-rescue:C_Small-Device C76
+U 1 1 5FF38647
+P 6700 3750
+F 0 "C76" H 6450 3750 50  0000 L CNN
+F 1 "2.2uF" H 6450 3650 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6700 3750 50  0001 C CNN
+F 3 "~" H 6700 3750 50  0001 C CNN
+	1    6700 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6700 3550 6700 3650
+Wire Wire Line
+	6700 3850 6700 4100
+Wire Wire Line
+	8350 3550 8350 3650
+Connection ~ 8350 3550
+Wire Wire Line
+	8350 3550 8650 3550
+Wire Wire Line
+	8350 3850 8350 4100
+Wire Wire Line
+	8350 4100 7650 4100
+Connection ~ 7650 4100
+$Comp
+L auris-rescue:C_Small-Device C79
+U 1 1 5FF43BBD
+P 7100 3750
+F 0 "C79" H 7192 3796 50  0000 L CNN
+F 1 "1uF" H 7192 3705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7100 3750 50  0001 C CNN
+F 3 "~" H 7100 3750 50  0001 C CNN
+	1    7100 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7250 3650 7100 3650
+Wire Wire Line
+	7250 3850 7100 3850
+$Comp
+L auris-rescue:C_Small-Device C82
+U 1 1 5FF56375
+P 8350 3750
+F 0 "C82" H 8442 3796 50  0000 L CNN
+F 1 "2.2uF" H 8442 3705 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 8350 3750 50  0001 C CNN
+F 3 "~" H 8350 3750 50  0001 C CNN
+	1    8350 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:C_Small-Device C62
+U 1 1 5FEF3111
+P 2000 1450
+F 0 "C62" H 2092 1496 50  0000 L CNN
+F 1 "1uF" H 2092 1405 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2000 1450 50  0001 C CNN
+F 3 "~" H 2000 1450 50  0001 C CNN
+	1    2000 1450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2000 1550 2000 1800
+Connection ~ 2000 1800
+Wire Wire Line
+	2000 1800 2200 1800
+Wire Wire Line
+	2000 1350 2000 1100
+Connection ~ 2000 1100
+Wire Wire Line
+	2000 1100 2350 1100
+$Comp
+L auris-rescue:CP1_Small-Device C75
+U 1 1 5FEEE8EA
+P 5550 1500
+F 0 "C75" H 5641 1546 50  0000 L CNN
+F 1 "100uF 6.3V" H 5641 1455 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T_Pad1.50x2.35mm_HandSolder" H 5550 1500 50  0001 C CNN
+F 3 "~" H 5550 1500 50  0001 C CNN
+	1    5550 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:CP1_Small-Device C73
+U 1 1 5FEEE8A8
+P 5350 1500
+F 0 "C73" H 5441 1546 50  0000 L CNN
+F 1 "100uF 6.3V" H 5441 1455 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T_Pad1.50x2.35mm_HandSolder" H 5350 1500 50  0001 C CNN
+F 3 "~" H 5350 1500 50  0001 C CNN
+	1    5350 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:CP1_Small-Device C71
+U 1 1 5FEEE80A
+P 5150 1500
+F 0 "C71" H 5241 1546 50  0000 L CNN
+F 1 "100uF 6.3V" H 5241 1455 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T_Pad1.50x2.35mm_HandSolder" H 5150 1500 50  0001 C CNN
+F 3 "~" H 5150 1500 50  0001 C CNN
+	1    5150 1500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 1100 1850 900 
+Text GLabel 1850 900  1    50   Output ~ 0
+VCC_12V
+$Comp
+L auris-rescue:GND-power #PWR0187
+U 1 1 60A2F7F8
+P 7650 4100
+F 0 "#PWR0187" H 7650 3850 50  0001 C CNN
+F 1 "GND" H 7655 3927 50  0000 C CNN
+F 2 "" H 7650 4100 50  0001 C CNN
+F 3 "" H 7650 4100 50  0001 C CNN
+	1    7650 4100
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:D_Schottky-Device D8
+U 1 1 6138D15F
+P 4000 3900
+F 0 "D8" H 4000 4116 50  0000 C CNN
+F 1 "SS54B" H 4000 4025 50  0000 C CNN
+F 2 "Diode_SMD:D_2512_6332Metric_Pad1.52x3.35mm_HandSolder" H 4000 3900 50  0001 C CNN
+F 3 "~" H 4000 3900 50  0001 C CNN
+	1    4000 3900
+	0    1    1    0   
+$EndComp
+$Comp
+L xl1509-5.0:XL1509-5.0 IC?
+U 1 1 6138D3CB
+P 2550 3950
+AR Path="/6138D3CB" Ref="IC?"  Part="1" 
+AR Path="/5FEE1630/6138D3CB" Ref="IC14"  Part="1" 
+F 0 "IC14" H 2875 4623 50  0000 C CNN
+F 1 "XL1509-5.0" H 2550 3950 50  0001 L CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 2550 3950 50  0001 C CNN
+F 3 "" H 2550 3950 50  0001 C CNN
+	1    2550 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3550 3450 3650 3450
+Wire Wire Line
+	3650 3450 3650 3550
+Wire Wire Line
+	3550 3550 3650 3550
+Connection ~ 3650 3550
+Wire Wire Line
+	3650 3550 3650 3650
+Wire Wire Line
+	3550 3650 3650 3650
+Connection ~ 3650 3650
+Wire Wire Line
+	3650 3650 3650 3750
+Wire Wire Line
+	3550 3750 3650 3750
+Connection ~ 3650 3750
+Wire Wire Line
+	3650 3750 3650 4150
+Wire Wire Line
+	2200 3750 2050 3750
+Wire Wire Line
+	2050 3750 2050 4150
+Connection ~ 3650 4150
+Wire Wire Line
+	3650 4150 4000 4150
+Wire Wire Line
+	1700 3450 1850 3450
+Connection ~ 2050 4150
+Wire Wire Line
+	2050 4150 3650 4150
+Wire Wire Line
+	2200 3550 2100 3550
+Wire Wire Line
+	2100 3550 2100 3200
+Wire Wire Line
+	2100 3200 4000 3200
+Wire Wire Line
+	4000 4050 4000 4150
+Connection ~ 4000 4150
+Wire Wire Line
+	4000 4150 4550 4150
+Wire Wire Line
+	4000 3200 4000 3550
+Wire Wire Line
+	2200 3650 2000 3650
+Wire Wire Line
+	2000 3650 2000 3100
+$Comp
+L auris-rescue:L-Device L3
+U 1 1 6138D3F1
+P 4300 3550
+F 0 "L3" V 4490 3550 50  0000 C CNN
+F 1 "68uH" V 4399 3550 50  0000 C CNN
+F 2 "Inductor_SMD:L_12x12mm_H8mm" H 4300 3550 50  0001 C CNN
+F 3 "~" H 4300 3550 50  0001 C CNN
+	1    4300 3550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4150 3550 4000 3550
+Connection ~ 4000 3550
+Wire Wire Line
+	4000 3550 4000 3750
+Wire Wire Line
+	4550 3100 4550 3550
+Wire Wire Line
+	4550 3550 4450 3550
+Wire Wire Line
+	2000 3100 4550 3100
+$Comp
+L auris-rescue:CP1_Small-Device C68
+U 1 1 6138D401
+P 4750 3850
+F 0 "C68" H 4841 3896 50  0000 L CNN
+F 1 "100uF 6.3V" H 4841 3805 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T_Pad1.50x2.35mm_HandSolder" H 4750 3850 50  0001 C CNN
+F 3 "~" H 4750 3850 50  0001 C CNN
+	1    4750 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:C_Small-Device C66
+U 1 1 6138D40B
+P 4550 3850
+F 0 "C66" H 4642 3896 50  0000 L CNN
+F 1 "1uF" H 4642 3805 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 4550 3850 50  0001 C CNN
+F 3 "~" H 4550 3850 50  0001 C CNN
+	1    4550 3850
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4550 3550 4550 3750
+Connection ~ 4550 3550
+Wire Wire Line
+	4550 3950 4550 4150
+Connection ~ 4550 4150
+Wire Wire Line
+	5400 4150 5400 3950
+Wire Wire Line
+	4550 4150 4750 4150
+Wire Wire Line
+	5200 3950 5200 4150
+Connection ~ 5200 4150
+Wire Wire Line
+	5200 4150 5400 4150
+Wire Wire Line
+	5000 3950 5000 4150
+Connection ~ 5000 4150
+Wire Wire Line
+	5000 4150 5200 4150
+Wire Wire Line
+	4750 3950 4750 4150
+Connection ~ 4750 4150
+Wire Wire Line
+	4750 4150 5000 4150
+Wire Wire Line
+	4550 3550 4750 3550
+Wire Wire Line
+	5400 3550 5400 3750
+Wire Wire Line
+	5200 3550 5200 3750
+Connection ~ 5200 3550
+Wire Wire Line
+	5200 3550 5400 3550
+Wire Wire Line
+	5000 3550 5000 3750
+Connection ~ 5000 3550
+Wire Wire Line
+	5000 3550 5200 3550
+Wire Wire Line
+	4750 3550 4750 3750
+Connection ~ 4750 3550
+Wire Wire Line
+	4750 3550 5000 3550
+Wire Wire Line
+	5400 3550 5550 3550
+Connection ~ 5400 3550
+Wire Wire Line
+	3650 4150 3650 4300
+$Comp
+L auris-rescue:GND-power #PWR0188
+U 1 1 6138D433
+P 3650 4300
+F 0 "#PWR0188" H 3650 4050 50  0001 C CNN
+F 1 "GND" H 3655 4127 50  0000 C CNN
+F 2 "" H 3650 4300 50  0001 C CNN
+F 3 "" H 3650 4300 50  0001 C CNN
+	1    3650 4300
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:C_Small-Device C61
+U 1 1 6138D43D
+P 1850 3800
+F 0 "C61" H 1942 3846 50  0000 L CNN
+F 1 "1uF" H 1942 3755 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1850 3800 50  0001 C CNN
+F 3 "~" H 1850 3800 50  0001 C CNN
+	1    1850 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1850 3900 1850 4150
+Wire Wire Line
+	1850 4150 2050 4150
+Wire Wire Line
+	1850 3700 1850 3450
+Connection ~ 1850 3450
+Wire Wire Line
+	1850 3450 2200 3450
+$Comp
+L auris-rescue:CP1_Small-Device C74
+U 1 1 6138D44D
+P 5400 3850
+F 0 "C74" H 5491 3896 50  0000 L CNN
+F 1 "100uF 6.3V" H 5491 3805 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T_Pad1.50x2.35mm_HandSolder" H 5400 3850 50  0001 C CNN
+F 3 "~" H 5400 3850 50  0001 C CNN
+	1    5400 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:CP1_Small-Device C72
+U 1 1 6138D457
+P 5200 3850
+F 0 "C72" H 5291 3896 50  0000 L CNN
+F 1 "100uF 6.3V" H 5291 3805 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T_Pad1.50x2.35mm_HandSolder" H 5200 3850 50  0001 C CNN
+F 3 "~" H 5200 3850 50  0001 C CNN
+	1    5200 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:CP1_Small-Device C70
+U 1 1 6138D461
+P 5000 3850
+F 0 "C70" H 5091 3896 50  0000 L CNN
+F 1 "100uF 6.3V" H 5091 3805 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T_Pad1.50x2.35mm_HandSolder" H 5000 3850 50  0001 C CNN
+F 3 "~" H 5000 3850 50  0001 C CNN
+	1    5000 3850
+	1    0    0    -1  
+$EndComp
+Text GLabel 1700 3450 0    50   Output ~ 0
+VCC_12V
+Text GLabel 5550 3550 2    50   Output ~ 0
+VCC_5V
+$Comp
+L power:+5V #PWR0189
+U 1 1 61431BB5
+P 6700 1200
+F 0 "#PWR0189" H 6700 1050 50  0001 C CNN
+F 1 "+5V" V 6715 1328 50  0000 L CNN
+F 2 "" H 6700 1200 50  0001 C CNN
+F 3 "" H 6700 1200 50  0001 C CNN
+	1    6700 1200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+5V #PWR0190
+U 1 1 6144E305
+P 5700 1200
+F 0 "#PWR0190" H 5700 1050 50  0001 C CNN
+F 1 "+5V" V 5715 1328 50  0000 L CNN
+F 2 "" H 5700 1200 50  0001 C CNN
+F 3 "" H 5700 1200 50  0001 C CNN
+	1    5700 1200
+	0    1    1    0   
+$EndComp
+$Comp
+L auris-rescue:GND-power #PWR0191
+U 1 1 613DF5AB
+P 7350 3000
+F 0 "#PWR0191" H 7350 2750 50  0001 C CNN
+F 1 "GND" H 7355 2827 50  0000 C CNN
+F 2 "" H 7350 3000 50  0001 C CNN
+F 3 "" H 7350 3000 50  0001 C CNN
+	1    7350 3000
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:AMS1117-Regulator_Linear IC17
+U 1 1 613DF747
+P 7350 2350
+F 0 "IC17" H 7350 2592 50  0000 C CNN
+F 1 "AMS1117" H 7350 2501 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-223-3_TabPin2" H 7350 2550 50  0001 C CNN
+F 3 "http://www.advanced-monolithic.com/pdf/ds1117.pdf" H 7450 2100 50  0001 C CNN
+	1    7350 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:C_Small-Device C78
+U 1 1 613DF752
+P 6850 2650
+F 0 "C78" H 6942 2696 50  0000 L CNN
+F 1 "10uF" H 6942 2605 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6850 2650 50  0001 C CNN
+F 3 "~" H 6850 2650 50  0001 C CNN
+	1    6850 2650
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:CP1_Small-Device C81
+U 1 1 613DF75C
+P 7900 2650
+F 0 "C81" H 7991 2696 50  0000 L CNN
+F 1 "100uF 6.3V" H 7991 2605 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-12_Kemet-T_Pad1.50x2.35mm_HandSolder" H 7900 2650 50  0001 C CNN
+F 3 "~" H 7900 2650 50  0001 C CNN
+	1    7900 2650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7650 2350 7900 2350
+Wire Wire Line
+	6700 2350 6850 2350
+Wire Wire Line
+	7900 2350 7900 2550
+Connection ~ 7900 2350
+Wire Wire Line
+	7900 2350 8150 2350
+Wire Wire Line
+	7900 2750 7900 2900
+Wire Wire Line
+	7900 2900 7350 2900
+Wire Wire Line
+	6850 2900 6850 2750
+Wire Wire Line
+	6850 2550 6850 2350
+Connection ~ 6850 2350
+Wire Wire Line
+	6850 2350 7050 2350
+Wire Wire Line
+	7350 2650 7350 2900
+Connection ~ 7350 2900
+Wire Wire Line
+	7350 2900 6850 2900
+Wire Wire Line
+	7350 2900 7350 3000
+$Comp
+L power:+5V #PWR0192
+U 1 1 613DF775
+P 6700 2350
+F 0 "#PWR0192" H 6700 2200 50  0001 C CNN
+F 1 "+5V" V 6715 2478 50  0000 L CNN
+F 2 "" H 6700 2350 50  0001 C CNN
+F 3 "" H 6700 2350 50  0001 C CNN
+	1    6700 2350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+3.3V #PWR0193
+U 1 1 614299CF
+P 8150 2350
+F 0 "#PWR0193" H 8150 2200 50  0001 C CNN
+F 1 "+3.3V" V 8165 2478 50  0000 L CNN
+F 2 "" H 8150 2350 50  0001 C CNN
+F 3 "" H 8150 2350 50  0001 C CNN
+	1    8150 2350
+	0    1    1    0   
+$EndComp
+$EndSCHEMATC

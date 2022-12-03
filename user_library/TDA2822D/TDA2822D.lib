@@ -1,0 +1,43 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#(c) SnapEDA 2016 (snapeda.com)
+#This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA) with Design Exception 1.0
+#
+# TDA2822D
+#
+DEF TDA2822D U 0 40 Y N 2 L N
+F0 "U" 200 125 50 H V L BNN
+F1 "TDA2822D" 200 -200 50 H V L BNN
+F2 "SOIC127P600X175-8N" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "IPC-7351B" 0 0 50 H I L BNN "STANDARD"
+F5 "1.75 mm" 0 0 50 H I L BNN "MAXIMUM_PACKAGE_HEIGHT"
+F6 "ST Microelectronics" 0 0 50 H I L BNN "MANUFACTURER"
+F7 "September 2003" 0 0 50 H I L BNN "PARTREV"
+DRAW
+P 2 1 0 16 -100 200 -100 -200 N
+P 2 1 0 16 -100 -200 300 0 N
+P 2 1 0 16 300 0 -100 200 N
+P 2 1 0 6 -50 -75 -50 -125 N
+P 2 1 0 6 -75 100 -25 100 N
+P 2 1 0 6 -75 -100 -25 -100 N
+T 900 150 125 32 0 0 0 VCC Normal 0 L B
+T 900 150 -175 32 0 0 0 GND Normal 0 L B
+X ~ 7 -300 -100 200 R 40 40 1 0 I 
+X ~ 8 -300 100 200 R 40 40 1 0 I 
+X ~ 2 100 300 200 D 40 40 1 0 W 
+X ~ 1 500 0 200 L 40 40 1 0 O 
+X ~ 4 100 -300 200 U 40 40 1 0 W 
+P 2 2 0 16 -100 200 -100 -200 N
+P 2 2 0 16 -100 -200 300 0 N
+P 2 2 0 16 300 0 -100 200 N
+P 2 2 0 6 -50 -75 -50 -125 N
+P 2 2 0 6 -75 100 -25 100 N
+P 2 2 0 6 -75 -100 -25 -100 N
+X ~ 6 -300 -100 200 R 40 40 2 0 I 
+X ~ 5 -300 100 200 R 40 40 2 0 I 
+X ~ 3 500 0 200 L 40 40 2 0 O 
+ENDDRAW
+ENDDEF
+#
+# End Library

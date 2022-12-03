@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name toyota_connector)(type KiCad)(uri /home/yahha777/Kicad/library_kicad/user_library/toyota_connector)(options "")(descr ""))
+  (lib (name TDA2822D)(type KiCad)(uri /home/yahha777/Kicad/library_kicad/user_library/TDA2822D)(options "")(descr ""))
+)
