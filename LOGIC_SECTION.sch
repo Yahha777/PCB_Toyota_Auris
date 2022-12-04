@@ -1,0 +1,312 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 7 18
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L auris-rescue:MMBT3904-Transistor_BJT TR1
+U 1 1 5FF54E5E
+P 4300 4700
+F 0 "TR1" H 4491 4746 50  0000 L CNN
+F 1 "MMBT3904" H 4491 4655 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 4500 4625 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 4300 4700 50  0001 L CNN
+	1    4300 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:R-Device R47
+U 1 1 5FF54F4A
+P 3500 4700
+F 0 "R47" H 3570 4746 50  0000 L CNN
+F 1 "1k" H 3570 4655 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 3430 4700 50  0001 C CNN
+F 3 "~" H 3500 4700 50  0001 C CNN
+	1    3500 4700
+	0    1    1    0   
+$EndComp
+$Comp
+L auris-rescue:R-Device R48
+U 1 1 5FF507D8
+P 4850 2350
+F 0 "R48" H 4920 2396 50  0000 L CNN
+F 1 "0R" H 4920 2305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4780 2350 50  0001 C CNN
+F 3 "~" H 4850 2350 50  0001 C CNN
+	1    4850 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L auris-rescue:R-Device R49
+U 1 1 5FF508CE
+P 4850 2600
+F 0 "R49" H 4920 2646 50  0000 L CNN
+F 1 "0R" H 4920 2555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4780 2600 50  0001 C CNN
+F 3 "~" H 4850 2600 50  0001 C CNN
+	1    4850 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4300 2600 4550 2600
+$Comp
+L auris:SN74LVC1G02DCKR IC4
+U 1 1 5FF50ADF
+P 3800 2750
+F 0 "IC4" H 3800 3125 50  0000 C CNN
+F 1 "SN74LVC1G02DCKR" H 3800 3034 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5_HandSoldering" H 3800 2450 50  0001 C CNN
+F 3 "" H 3800 2450 50  0001 C CNN
+	1    3800 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 2350 4550 2350
+Wire Wire Line
+	4550 2350 4550 2600
+Connection ~ 4550 2600
+Wire Wire Line
+	4550 2600 4700 2600
+Wire Wire Line
+	5000 2350 5200 2350
+Wire Wire Line
+	5000 2600 5200 2600
+Wire Wire Line
+	4300 2750 4550 2750
+Wire Wire Line
+	4550 2750 4550 3100
+$Comp
+L auris-rescue:R-Device R45
+U 1 1 5FF50BCB
+P 2400 2350
+F 0 "R45" H 2470 2396 50  0000 L CNN
+F 1 "1k" H 2470 2305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2330 2350 50  0001 C CNN
+F 3 "~" H 2400 2350 50  0001 C CNN
+	1    2400 2350
+	0    1    1    0   
+$EndComp
+$Comp
+L auris-rescue:R-Device R46
+U 1 1 5FF50C47
+P 2400 2750
+F 0 "R46" H 2470 2796 50  0000 L CNN
+F 1 "1k" H 2470 2705 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2330 2750 50  0001 C CNN
+F 3 "~" H 2400 2750 50  0001 C CNN
+	1    2400 2750
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3300 2600 3050 2600
+Wire Wire Line
+	3050 2600 3050 2350
+Wire Wire Line
+	3050 2350 2700 2350
+Wire Wire Line
+	3300 2750 2700 2750
+Wire Wire Line
+	2250 2350 2050 2350
+Wire Wire Line
+	2250 2750 2050 2750
+NoConn ~ 5250 5050
+$Comp
+L auris-rescue:C_Small-Device C35
+U 1 1 5FF51210
+P 2700 2150
+F 0 "C35" H 2792 2196 50  0000 L CNN
+F 1 "10nF" H 2792 2105 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2700 2150 50  0001 C CNN
+F 3 "~" H 2700 2150 50  0001 C CNN
+	1    2700 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:C_Small-Device C36
+U 1 1 5FF51321
+P 2700 2950
+F 0 "C36" H 2792 2996 50  0000 L CNN
+F 1 "1nF" H 2792 2905 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2700 2950 50  0001 C CNN
+F 3 "~" H 2700 2950 50  0001 C CNN
+	1    2700 2950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	3300 2900 3150 2900
+Wire Wire Line
+	3150 2900 3150 3100
+$Comp
+L auris-rescue:C_Small-Device C37
+U 1 1 5FF5151B
+P 3800 3100
+F 0 "C37" H 3892 3146 50  0000 L CNN
+F 1 "1uF" H 3892 3055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3800 3100 50  0001 C CNN
+F 3 "~" H 3800 3100 50  0001 C CNN
+	1    3800 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3150 3100 3700 3100
+Connection ~ 3150 3100
+Wire Wire Line
+	3150 3100 3150 3300
+Wire Wire Line
+	3900 3100 4550 3100
+Connection ~ 4550 3100
+Wire Wire Line
+	4550 3100 4550 3300
+Wire Wire Line
+	2700 2750 2700 2850
+Connection ~ 2700 2750
+Wire Wire Line
+	2700 2750 2550 2750
+Wire Wire Line
+	2700 2250 2700 2350
+Connection ~ 2700 2350
+Wire Wire Line
+	2700 2350 2550 2350
+$Comp
+L auris-rescue:C_Small-Device C38
+U 1 1 5FF52BA6
+P 3900 4900
+F 0 "C38" H 3992 4946 50  0000 L CNN
+F 1 "10nF" H 3992 4855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3900 4900 50  0001 C CNN
+F 3 "~" H 3900 4900 50  0001 C CNN
+	1    3900 4900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 4700 3900 4700
+Wire Wire Line
+	3900 4700 3900 4800
+Connection ~ 3900 4700
+Wire Wire Line
+	3900 4700 3650 4700
+Wire Wire Line
+	3900 5000 3900 5150
+Wire Wire Line
+	3350 4700 3150 4700
+Wire Wire Line
+	4400 4500 4400 4400
+Wire Wire Line
+	4400 4200 4650 4200
+Wire Wire Line
+	4400 4400 4650 4400
+Connection ~ 4400 4400
+Wire Wire Line
+	4400 4400 4400 4200
+Wire Wire Line
+	4400 4900 4400 5150
+$Comp
+L auris-rescue:GND-power #PWR0146
+U 1 1 5FF53B3D
+P 3900 5150
+F 0 "#PWR0146" H 3900 4900 50  0001 C CNN
+F 1 "GND" H 3905 4977 50  0000 C CNN
+F 2 "" H 3900 5150 50  0001 C CNN
+F 3 "" H 3900 5150 50  0001 C CNN
+	1    3900 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:GND-power #PWR0147
+U 1 1 5FF53B80
+P 4400 5150
+F 0 "#PWR0147" H 4400 4900 50  0001 C CNN
+F 1 "GND" H 4405 4977 50  0000 C CNN
+F 2 "" H 4400 5150 50  0001 C CNN
+F 3 "" H 4400 5150 50  0001 C CNN
+	1    4400 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:Jumper-Device SJ?
+U 1 1 5FF548F6
+P 4950 4200
+AR Path="/5FED1D89/5FF548F6" Ref="SJ?"  Part="1" 
+AR Path="/5FEDDFB4/5FF548F6" Ref="SJ?"  Part="1" 
+AR Path="/5FF53726/5FF548F6" Ref="SJ1"  Part="1" 
+F 0 "SJ1" H 4950 4464 50  0000 C CNN
+F 1 "MG1 EMCY" H 4950 4373 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 4950 4200 50  0001 C CNN
+F 3 "~" H 4950 4200 50  0001 C CNN
+	1    4950 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:Jumper-Device SJ?
+U 1 1 5FF54E86
+P 4950 4400
+AR Path="/5FED1D89/5FF54E86" Ref="SJ?"  Part="1" 
+AR Path="/5FEDDFB4/5FF54E86" Ref="SJ?"  Part="1" 
+AR Path="/5FF53726/5FF54E86" Ref="SJ2"  Part="1" 
+F 0 "SJ2" H 4950 4664 50  0000 C CNN
+F 1 "MG2 EMCY" H 4950 4573 50  0000 C CNN
+F 2 "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm" H 4950 4400 50  0001 C CNN
+F 3 "~" H 4950 4400 50  0001 C CNN
+	1    4950 4400
+	1    0    0    -1  
+$EndComp
+Text GLabel 5250 4200 2    50   Output ~ 0
+MG1_EMCYSTOP_IN_38
+Text GLabel 5250 4400 2    50   Output ~ 0
+MG2_EMCYSTOP_IN_38
+Text GLabel 3150 4700 0    50   Input ~ 0
+HV_CON_CTRL
+Text GLabel 2050 2350 0    50   Input ~ 0
+MG2_FAULT
+Text GLabel 2050 2750 0    50   Input ~ 0
+MG1_FAULT
+Text GLabel 5200 2350 2    50   Output ~ 0
+MG1_PWM_INHIBIT_33
+Text GLabel 5200 2600 2    50   Output ~ 0
+MG2_PWM_INHIBIT_33
+Text GLabel 4550 3300 3    50   Input ~ 0
+VCC_5V
+$Comp
+L auris-rescue:GND-power #PWR0148
+U 1 1 5FF56949
+P 3150 3300
+F 0 "#PWR0148" H 3150 3050 50  0001 C CNN
+F 1 "GND" H 3155 3127 50  0000 C CNN
+F 2 "" H 3150 3300 50  0001 C CNN
+F 3 "" H 3150 3300 50  0001 C CNN
+	1    3150 3300
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:GND-power #PWR0149
+U 1 1 5FF56992
+P 2700 2050
+F 0 "#PWR0149" H 2700 1800 50  0001 C CNN
+F 1 "GND" H 2705 1877 50  0000 C CNN
+F 2 "" H 2700 2050 50  0001 C CNN
+F 3 "" H 2700 2050 50  0001 C CNN
+	1    2700 2050
+	-1   0    0    1   
+$EndComp
+$Comp
+L auris-rescue:GND-power #PWR0150
+U 1 1 5FF57469
+P 2700 3050
+F 0 "#PWR0150" H 2700 2800 50  0001 C CNN
+F 1 "GND" H 2705 2877 50  0000 C CNN
+F 2 "" H 2700 3050 50  0001 C CNN
+F 3 "" H 2700 3050 50  0001 C CNN
+	1    2700 3050
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

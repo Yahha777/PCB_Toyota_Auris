@@ -1,0 +1,304 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 8 18
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L auris-rescue:MMBT3904-Transistor_BJT Q1
+U 1 1 5FF499C3
+P 5600 3450
+F 0 "Q1" H 5791 3496 50  0000 L CNN
+F 1 "MMBT3904" H 5791 3405 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 5800 3375 50  0001 L CIN
+F 3 "https://www.fairchildsemi.com/datasheets/2N/2N3904.pdf" H 5600 3450 50  0001 L CNN
+	1    5600 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:R-Device R51
+U 1 1 5FF49A66
+P 1800 2450
+F 0 "R51" H 1730 2404 50  0000 R CNN
+F 1 "330R" H 1730 2495 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1730 2450 50  0001 C CNN
+F 3 "~" H 1800 2450 50  0001 C CNN
+	1    1800 2450
+	-1   0    0    1   
+$EndComp
+$Comp
+L auris-rescue:C_Small-Device C39
+U 1 1 5FF49C3D
+P 2150 3350
+F 0 "C39" H 2242 3396 50  0000 L CNN
+F 1 "1uF" H 2242 3305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2150 3350 50  0001 C CNN
+F 3 "~" H 2150 3350 50  0001 C CNN
+	1    2150 3350
+	1    0    0    -1  
+$EndComp
+Text GLabel 1800 1900 1    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	1800 1900 1800 2300
+Wire Wire Line
+	1800 2600 1800 2750
+Wire Wire Line
+	1600 2750 1800 2750
+Connection ~ 1800 2750
+Wire Wire Line
+	1800 2750 1800 3050
+Wire Wire Line
+	1800 2750 2350 2750
+Wire Wire Line
+	1800 3050 2150 3050
+Wire Wire Line
+	2150 3050 2150 3250
+Connection ~ 1800 3050
+Wire Wire Line
+	1800 3050 1800 3200
+Wire Wire Line
+	1800 3500 1800 3550
+Wire Wire Line
+	2700 3450 2700 3550
+Wire Wire Line
+	2700 3550 2150 3550
+Connection ~ 1800 3550
+Wire Wire Line
+	1800 3550 1800 3700
+Wire Wire Line
+	2150 3450 2150 3550
+Connection ~ 2150 3550
+Wire Wire Line
+	2150 3550 1800 3550
+Text GLabel 2950 2750 2    50   Input ~ 0
+EVSE_PP
+Wire Wire Line
+	2950 2750 2700 2750
+Wire Wire Line
+	2700 2750 2700 3250
+Connection ~ 2700 2750
+Wire Wire Line
+	2700 2750 2650 2750
+Wire Wire Line
+	1150 2750 1300 2750
+Text GLabel 1150 2750 0    50   Input ~ 0
+EVSE_PROX
+$Comp
+L auris-rescue:GND-power #PWR0151
+U 1 1 5FF4AEF8
+P 1800 3700
+F 0 "#PWR0151" H 1800 3450 50  0001 C CNN
+F 1 "GND" H 1805 3527 50  0000 C CNN
+F 2 "" H 1800 3700 50  0001 C CNN
+F 3 "" H 1800 3700 50  0001 C CNN
+	1    1800 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:R-Device R55
+U 1 1 5FF4B235
+P 5250 3000
+F 0 "R55" H 5180 2954 50  0000 R CNN
+F 1 "2k7" H 5180 3045 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5180 3000 50  0001 C CNN
+F 3 "~" H 5250 3000 50  0001 C CNN
+	1    5250 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L auris-rescue:R-Device R53
+U 1 1 5FF4B35B
+P 2500 2750
+F 0 "R53" V 2707 2750 50  0000 C CNN
+F 1 "10k" V 2616 2750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2430 2750 50  0001 C CNN
+F 3 "~" H 2500 2750 50  0001 C CNN
+	1    2500 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L auris-rescue:R-Device R50
+U 1 1 5FF4B4D8
+P 1450 2750
+F 0 "R50" V 1657 2750 50  0000 C CNN
+F 1 "0R" V 1566 2750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1380 2750 50  0001 C CNN
+F 3 "~" H 1450 2750 50  0001 C CNN
+	1    1450 2750
+	0    -1   -1   0   
+$EndComp
+$Comp
+L auris-rescue:R-Device R52
+U 1 1 5FF4B527
+P 1800 3350
+F 0 "R52" H 1870 3396 50  0000 L CNN
+F 1 "680R" H 1870 3305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 1730 3350 50  0001 C CNN
+F 3 "~" H 1800 3350 50  0001 C CNN
+	1    1800 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:C_Small-Device C40
+U 1 1 5FF4B9BA
+P 2700 3350
+F 0 "C40" H 2792 3396 50  0000 L CNN
+F 1 "1uF" H 2792 3305 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 2700 3350 50  0001 C CNN
+F 3 "~" H 2700 3350 50  0001 C CNN
+	1    2700 3350
+	1    0    0    -1  
+$EndComp
+Text GLabel 4650 2750 0    50   Input ~ 0
+CONTROL_PILOT
+$Comp
+L auris-rescue:R-Device R56
+U 1 1 5FF4D0CA
+P 5700 3000
+F 0 "R56" H 5630 2954 50  0000 R CNN
+F 1 "1k5" H 5630 3045 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5630 3000 50  0001 C CNN
+F 3 "~" H 5700 3000 50  0001 C CNN
+	1    5700 3000
+	-1   0    0    1   
+$EndComp
+$Comp
+L auris-rescue:R-Device R54
+U 1 1 5FF4D16C
+P 5150 3450
+F 0 "R54" V 5357 3450 50  0000 C CNN
+F 1 "1k" V 5266 3450 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 5080 3450 50  0001 C CNN
+F 3 "~" H 5150 3450 50  0001 C CNN
+	1    5150 3450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L auris-rescue:R-Device R57
+U 1 1 5FF4D1C4
+P 6150 2750
+F 0 "R57" V 6357 2750 50  0000 C CNN
+F 1 "22k" V 6266 2750 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6080 2750 50  0001 C CNN
+F 3 "~" H 6150 2750 50  0001 C CNN
+	1    6150 2750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4950 2750 5250 2750
+Wire Wire Line
+	6300 2750 6500 2750
+Wire Wire Line
+	6500 2750 6500 2450
+Wire Wire Line
+	6500 2750 6500 2900
+Connection ~ 6500 2750
+Wire Wire Line
+	5250 2750 5250 2850
+Connection ~ 5250 2750
+Wire Wire Line
+	5250 2750 5700 2750
+Wire Wire Line
+	5700 2750 5700 2850
+Connection ~ 5700 2750
+Wire Wire Line
+	5700 2750 6000 2750
+Wire Wire Line
+	5700 3150 5700 3250
+Wire Wire Line
+	5400 3450 5300 3450
+Wire Wire Line
+	5000 3450 4650 3450
+Wire Wire Line
+	5700 3650 5700 3750
+Wire Wire Line
+	6500 3200 6500 3400
+$Comp
+L auris-rescue:GND-power #PWR0152
+U 1 1 5FF4ED9A
+P 6500 3400
+F 0 "#PWR0152" H 6500 3150 50  0001 C CNN
+F 1 "GND" H 6505 3227 50  0000 C CNN
+F 2 "" H 6500 3400 50  0001 C CNN
+F 3 "" H 6500 3400 50  0001 C CNN
+	1    6500 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:GND-power #PWR0153
+U 1 1 5FF4EDEC
+P 5700 3750
+F 0 "#PWR0153" H 5700 3500 50  0001 C CNN
+F 1 "GND" H 5705 3577 50  0000 C CNN
+F 2 "" H 5700 3750 50  0001 C CNN
+F 3 "" H 5700 3750 50  0001 C CNN
+	1    5700 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:GND-power #PWR0154
+U 1 1 5FF4EE3E
+P 5250 3150
+F 0 "#PWR0154" H 5250 2900 50  0001 C CNN
+F 1 "GND" H 5255 2977 50  0000 C CNN
+F 2 "" H 5250 3150 50  0001 C CNN
+F 3 "" H 5250 3150 50  0001 C CNN
+	1    5250 3150
+	1    0    0    -1  
+$EndComp
+Text GLabel 4650 3450 0    50   Input ~ 0
+EVSE_SW
+Wire Wire Line
+	6500 2750 6900 2750
+Text GLabel 6900 2750 2    50   Input ~ 0
+EVSE_CP
+Text GLabel 6900 2000 2    50   Input ~ 0
+VCC_5V
+Wire Wire Line
+	6900 2000 6500 2000
+Wire Wire Line
+	6500 2000 6500 2150
+$Comp
+L auris-rescue:1N4148W-Diode D4
+U 1 1 5FF5095C
+P 6500 2300
+F 0 "D4" V 6454 2380 50  0000 L CNN
+F 1 "1N4148W-7-F" V 6545 2380 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 6500 2125 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6500 2300 50  0001 C CNN
+	1    6500 2300
+	0    1    1    0   
+$EndComp
+$Comp
+L auris-rescue:1N4148W-Diode D5
+U 1 1 5FF50B10
+P 6500 3050
+F 0 "D5" V 6454 3130 50  0000 L CNN
+F 1 "1N4148W-7-F" V 6545 3130 50  0000 L CNN
+F 2 "Diode_SMD:D_SOD-123" H 6500 2875 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 6500 3050 50  0001 C CNN
+	1    6500 3050
+	0    1    1    0   
+$EndComp
+$Comp
+L auris-rescue:1N4148W-Diode D3
+U 1 1 5FF50B5E
+P 4800 2750
+F 0 "D3" H 4800 2533 50  0000 C CNN
+F 1 "1N4148W-7-F" H 4800 2624 50  0000 C CNN
+F 2 "Diode_SMD:D_SOD-123" H 4800 2575 50  0001 C CNN
+F 3 "https://www.vishay.com/docs/85748/1n4148w.pdf" H 4800 2750 50  0001 C CNN
+	1    4800 2750
+	-1   0    0    1   
+$EndComp
+$EndSCHEMATC

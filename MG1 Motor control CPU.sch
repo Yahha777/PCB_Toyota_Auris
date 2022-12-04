@@ -1,0 +1,745 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 5 18
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L auris-rescue:STM32F103RBTx-MCU_ST_STM32F1 IC3
+U 1 1 5FEC2A17
+P 5250 3400
+F 0 "IC3" H 5250 1514 50  0000 C CNN
+F 1 "STM32F103RBT6" H 5250 1423 50  0000 C CNN
+F 2 "Package_QFP:LQFP-64_10x10mm_P0.5mm" H 4650 1700 50  0001 R CNN
+F 3 "http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/CD00161566.pdf" H 5250 3400 50  0001 C CNN
+	1    5250 3400
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5450 1600 5450 1500
+Wire Wire Line
+	5450 1500 5350 1500
+Wire Wire Line
+	5050 1500 5050 1600
+Wire Wire Line
+	5150 1600 5150 1500
+Connection ~ 5150 1500
+Wire Wire Line
+	5150 1500 5050 1500
+Wire Wire Line
+	5250 1600 5250 1500
+Connection ~ 5250 1500
+Wire Wire Line
+	5250 1500 5150 1500
+Wire Wire Line
+	5350 1600 5350 1500
+Connection ~ 5350 1500
+Wire Wire Line
+	5350 1500 5250 1500
+Wire Wire Line
+	5350 5200 5350 5350
+Wire Wire Line
+	5350 5350 5250 5350
+Wire Wire Line
+	5050 5350 5050 5200
+Wire Wire Line
+	5150 5200 5150 5350
+Connection ~ 5150 5350
+Wire Wire Line
+	5150 5350 5050 5350
+Wire Wire Line
+	5250 5200 5250 5350
+Connection ~ 5250 5350
+Wire Wire Line
+	5250 5350 5150 5350
+Wire Wire Line
+	5250 5350 5250 5550
+$Comp
+L auris-rescue:GND-power #PWR0131
+U 1 1 5FEB961D
+P 5250 5550
+F 0 "#PWR0131" H 5250 5300 50  0001 C CNN
+F 1 "GND" H 5255 5377 50  0000 C CNN
+F 2 "" H 5250 5550 50  0001 C CNN
+F 3 "" H 5250 5550 50  0001 C CNN
+	1    5250 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:C_Small-Device C29
+U 1 1 5FEB96AC
+P 6900 900
+F 0 "C29" H 6992 946 50  0000 L CNN
+F 1 "1uF" H 6992 855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6900 900 50  0001 C CNN
+F 3 "~" H 6900 900 50  0001 C CNN
+	1    6900 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:C_Small-Device C28
+U 1 1 5FEB9A3F
+P 6600 900
+F 0 "C28" H 6692 946 50  0000 L CNN
+F 1 "1uF" H 6692 855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6600 900 50  0001 C CNN
+F 3 "~" H 6600 900 50  0001 C CNN
+	1    6600 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:C_Small-Device C27
+U 1 1 5FEB9A67
+P 6300 900
+F 0 "C27" H 6392 946 50  0000 L CNN
+F 1 "1uF" H 6392 855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6300 900 50  0001 C CNN
+F 3 "~" H 6300 900 50  0001 C CNN
+	1    6300 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:C_Small-Device C30
+U 1 1 5FEBB413
+P 7200 900
+F 0 "C30" H 7292 946 50  0000 L CNN
+F 1 "1uF" H 7292 855 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7200 900 50  0001 C CNN
+F 3 "~" H 7200 900 50  0001 C CNN
+	1    7200 900 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 4800 6050 4800
+Wire Wire Line
+	5950 4900 6050 4900
+Wire Wire Line
+	5950 5000 6050 5000
+Wire Wire Line
+	5950 2600 6050 2600
+Wire Wire Line
+	5950 2700 6050 2700
+Wire Wire Line
+	5950 2800 6050 2800
+Wire Wire Line
+	5950 2300 6050 2300
+Wire Wire Line
+	5950 2400 6050 2400
+Wire Wire Line
+	5950 2500 6050 2500
+Wire Wire Line
+	7750 2200 7750 2300
+$Comp
+L auris-rescue:GND-power #PWR0132
+U 1 1 5FEC3436
+P 7750 2300
+F 0 "#PWR0132" H 7750 2050 50  0001 C CNN
+F 1 "GND" H 7755 2127 50  0000 C CNN
+F 2 "" H 7750 2300 50  0001 C CNN
+F 3 "" H 7750 2300 50  0001 C CNN
+	1    7750 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 3100 6050 3100
+Wire Wire Line
+	5950 3200 6050 3200
+Wire Wire Line
+	5950 4500 6050 4500
+Wire Wire Line
+	5950 4600 6050 4600
+Wire Wire Line
+	5950 3500 6050 3500
+Wire Wire Line
+	4550 3700 4450 3700
+Wire Wire Line
+	4550 3800 4450 3800
+Wire Wire Line
+	4550 3900 4450 3900
+Wire Wire Line
+	4550 1800 4450 1800
+$Comp
+L auris-rescue:C_Small-Device C?
+U 1 1 5FF040DF
+P 3350 2900
+AR Path="/5FEC2A71/5FF040DF" Ref="C?"  Part="1" 
+AR Path="/5FEC2A00/5FF040DF" Ref="C24"  Part="1" 
+F 0 "C24" V 3579 2900 50  0000 C CNN
+F 1 "27pF" V 3488 2900 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3350 2900 50  0001 C CNN
+F 3 "~" H 3350 2900 50  0001 C CNN
+	1    3350 2900
+	0    -1   -1   0   
+$EndComp
+$Comp
+L auris-rescue:C_Small-Device C?
+U 1 1 5FF040E6
+P 3350 3200
+AR Path="/5FEC2A71/5FF040E6" Ref="C?"  Part="1" 
+AR Path="/5FEC2A00/5FF040E6" Ref="C25"  Part="1" 
+F 0 "C25" V 3579 3200 50  0000 C CNN
+F 1 "27pF" V 3488 3200 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 3350 3200 50  0001 C CNN
+F 3 "~" H 3350 3200 50  0001 C CNN
+	1    3350 3200
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3250 2900 3150 2900
+Wire Wire Line
+	3150 2900 3150 3200
+Wire Wire Line
+	3150 3200 3250 3200
+Wire Wire Line
+	3150 3200 3150 3350
+Connection ~ 3150 3200
+$Comp
+L auris-rescue:GND-power #PWR?
+U 1 1 5FF040F6
+P 3150 3350
+AR Path="/5FEC2A71/5FF040F6" Ref="#PWR?"  Part="1" 
+AR Path="/5FEC2A00/5FF040F6" Ref="#PWR0133"  Part="1" 
+F 0 "#PWR0133" H 3150 3100 50  0001 C CNN
+F 1 "GND" H 3155 3177 50  0000 C CNN
+F 2 "" H 3150 3350 50  0001 C CNN
+F 3 "" H 3150 3350 50  0001 C CNN
+	1    3150 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 2900 4100 3100
+Wire Wire Line
+	4100 3100 4550 3100
+Wire Wire Line
+	4550 4700 4400 4700
+Text GLabel 6050 5000 2    50   Output ~ 0
+MG1_PWM3_N_36
+Text GLabel 6050 4900 2    50   Output ~ 0
+MG1_PWM2_N_35
+Text GLabel 6050 4800 2    50   Output ~ 0
+MG1_PWM1_N_34
+Text GLabel 6050 2800 2    50   Output ~ 0
+MG1_PWM3_P_43
+Text GLabel 6050 2700 2    50   Output ~ 0
+MG1_PWM2_P_42
+Text GLabel 6050 2600 2    50   Output ~ 0
+MG1_PWM1_P_41
+Text GLabel 6050 2300 2    50   Input ~ 0
+MG1_IL1_21
+Text GLabel 6050 2400 2    50   Input ~ 0
+MG1_ENC_A_22
+Text GLabel 6050 2500 2    50   Input ~ 0
+MG1_ENC_B_23
+Text GLabel 4450 3700 0    50   Input ~ 0
+MG1_TMPM_10
+Text GLabel 4450 3800 0    50   Input ~ 0
+MG1_UDC_11
+Text GLabel 4450 3900 0    50   Input ~ 0
+MG1_TMPHS_24
+Text GLabel 6050 3500 2    50   Input ~ 0
+MG1_IL2_26
+Wire Wire Line
+	3450 3200 3650 3200
+Wire Wire Line
+	3450 2900 3650 2900
+$Comp
+L auris-rescue:Crystal-Device X3
+U 1 1 5FEEB3A8
+P 3650 3050
+F 0 "X3" V 3604 3181 50  0000 L CNN
+F 1 "8MHz" V 3695 3181 50  0000 L CNN
+F 2 "Crystal:Crystal_SMD_5032-2Pin_5.0x3.2mm" H 3650 3050 50  0001 C CNN
+F 3 "~" H 3650 3050 50  0001 C CNN
+	1    3650 3050
+	0    1    1    0   
+$EndComp
+Connection ~ 3650 2900
+Wire Wire Line
+	3650 2900 4100 2900
+Connection ~ 3650 3200
+Wire Wire Line
+	3650 3200 4550 3200
+$Comp
+L auris-rescue:R-Device R?
+U 1 1 5FF66D37
+P 3050 1300
+AR Path="/5FEC2A71/5FF66D37" Ref="R?"  Part="1" 
+AR Path="/5FEC2A00/5FF66D37" Ref="R33"  Part="1" 
+F 0 "R33" H 3120 1346 50  0000 L CNN
+F 1 "680R" H 3120 1255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2980 1300 50  0001 C CNN
+F 3 "~" H 3050 1300 50  0001 C CNN
+	1    3050 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:LED-Device LED?
+U 1 1 5FF66D3E
+P 3050 1700
+AR Path="/5FEC2A71/5FF66D3E" Ref="LED?"  Part="1" 
+AR Path="/5FEC2A00/5FF66D3E" Ref="LED3"  Part="1" 
+F 0 "LED3" V 3088 1582 50  0000 R CNN
+F 1 "GREEN" V 2997 1582 50  0000 R CNN
+F 2 "LED_SMD:LED_0805_2012Metric" H 3050 1700 50  0001 C CNN
+F 3 "~" H 3050 1700 50  0001 C CNN
+	1    3050 1700
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3050 1850 3050 2000
+Wire Wire Line
+	3050 1450 3050 1550
+Wire Wire Line
+	3050 950  3050 1150
+$Comp
+L auris-rescue:Conn_01x03-Connector_Generic J3
+U 1 1 5FF78C52
+P 9050 3950
+F 0 "J3" H 9129 3992 50  0000 L CNN
+F 1 "SWPROG MG1" H 9129 3901 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 9050 3950 50  0001 C CNN
+F 3 "~" H 9050 3950 50  0001 C CNN
+	1    9050 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8850 3850 8600 3850
+Wire Wire Line
+	8850 4050 8600 4050
+Wire Wire Line
+	8850 3950 8750 3950
+Wire Wire Line
+	8750 3950 8750 4250
+$Comp
+L auris-rescue:GND-power #PWR0134
+U 1 1 5FF7DFD3
+P 8750 4250
+F 0 "#PWR0134" H 8750 4000 50  0001 C CNN
+F 1 "GND" H 8755 4077 50  0000 C CNN
+F 2 "" H 8750 4250 50  0001 C CNN
+F 3 "" H 8750 4250 50  0001 C CNN
+	1    8750 4250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 5350 5450 5350
+Wire Wire Line
+	5450 5350 5450 5200
+Connection ~ 5350 5350
+$Comp
+L auris-rescue:GND-power #PWR0135
+U 1 1 5FF27408
+P 7200 1000
+AR Path="/5FEC2A00/5FF27408" Ref="#PWR0135"  Part="1" 
+AR Path="/5FEC2A71/5FF27408" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0135" H 7200 750 50  0001 C CNN
+F 1 "GND" H 7205 827 50  0000 C CNN
+F 2 "" H 7200 1000 50  0001 C CNN
+F 3 "" H 7200 1000 50  0001 C CNN
+	1    7200 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:C_Small-Device C26
+U 1 1 5FF2740E
+P 6100 1100
+AR Path="/5FEC2A00/5FF2740E" Ref="C26"  Part="1" 
+AR Path="/5FEC2A71/5FF2740E" Ref="C?"  Part="1" 
+F 0 "C26" H 6192 1146 50  0000 L CNN
+F 1 "10uF" H 6192 1055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6100 1100 50  0001 C CNN
+F 3 "~" H 6100 1100 50  0001 C CNN
+	1    6100 1100
+	-1   0    0    1   
+$EndComp
+$Comp
+L auris-rescue:L-Device L?
+U 1 1 5FF27416
+P 5550 1000
+AR Path="/5FEC2A71/5FF27416" Ref="L?"  Part="1" 
+AR Path="/5FEC2A00/5FF27416" Ref="L2"  Part="1" 
+F 0 "L2" H 5603 1046 50  0000 L CNN
+F 1 "10uH" H 5603 955 50  0000 L CNN
+F 2 "Inductor_SMD:L_0603_1608Metric" H 5550 1000 50  0001 C CNN
+F 3 "~" H 5550 1000 50  0001 C CNN
+	1    5550 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5550 1200 6100 1200
+Wire Wire Line
+	5550 1150 5550 1200
+Wire Wire Line
+	5550 1200 5550 1600
+Connection ~ 5550 1200
+Wire Wire Line
+	5550 800  5550 850 
+Wire Wire Line
+	5250 600  5250 800 
+Wire Wire Line
+	5250 800  5550 800 
+Connection ~ 5250 800 
+Wire Wire Line
+	5250 800  5250 1500
+Connection ~ 5550 800 
+Wire Wire Line
+	5550 800  6300 800 
+Wire Wire Line
+	6100 1000 6300 1000
+Connection ~ 7200 1000
+Connection ~ 6900 800 
+Wire Wire Line
+	6900 800  7200 800 
+Connection ~ 6900 1000
+Wire Wire Line
+	6900 1000 7200 1000
+Connection ~ 6600 800 
+Wire Wire Line
+	6600 800  6900 800 
+Connection ~ 6600 1000
+Wire Wire Line
+	6600 1000 6900 1000
+Connection ~ 6300 800 
+Wire Wire Line
+	6300 800  6600 800 
+Connection ~ 6300 1000
+Wire Wire Line
+	6300 1000 6600 1000
+$Comp
+L auris-rescue:R-Device R?
+U 1 1 5FF39BB6
+P 4250 2300
+AR Path="/5FEC2A71/5FF39BB6" Ref="R?"  Part="1" 
+AR Path="/5FEC2A00/5FF39BB6" Ref="R34"  Part="1" 
+F 0 "R34" H 4320 2346 50  0000 L CNN
+F 1 "10k" H 4320 2255 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 4180 2300 50  0001 C CNN
+F 3 "~" H 4250 2300 50  0001 C CNN
+	1    4250 2300
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4550 2000 4250 2000
+Text GLabel 4050 2000 0    50   Input ~ 0
+MG1_BOOT0_60
+Wire Wire Line
+	4250 2000 4250 2150
+Connection ~ 4250 2000
+Wire Wire Line
+	4250 2000 4050 2000
+Wire Wire Line
+	4250 2450 4250 2500
+$Comp
+L auris-rescue:GND-power #PWR?
+U 1 1 5FF39BC3
+P 4250 2500
+AR Path="/5FEC2A71/5FF39BC3" Ref="#PWR?"  Part="1" 
+AR Path="/5FEC2A00/5FF39BC3" Ref="#PWR0136"  Part="1" 
+F 0 "#PWR0136" H 4250 2250 50  0001 C CNN
+F 1 "GND" H 4255 2327 50  0000 C CNN
+F 2 "" H 4250 2500 50  0001 C CNN
+F 3 "" H 4250 2500 50  0001 C CNN
+	1    4250 2500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5950 1900 6100 1900
+Wire Wire Line
+	6100 1900 6100 1800
+Wire Wire Line
+	6100 1800 5950 1800
+Connection ~ 6100 1800
+Text GLabel 6450 1800 2    50   Input ~ 0
+MG1_UVLO_IN_14
+$Comp
+L auris-rescue:R-Device R35
+U 1 1 5FF3CD91
+P 6850 1350
+F 0 "R35" H 6920 1396 50  0000 L CNN
+F 1 "1k" H 6920 1305 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6780 1350 50  0001 C CNN
+F 3 "~" H 6850 1350 50  0001 C CNN
+	1    6850 1350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7000 1350 7050 1350
+Wire Wire Line
+	7050 1350 7050 1550
+Wire Wire Line
+	7050 1550 7000 1550
+Text GLabel 7150 1350 2    50   Input ~ 0
+VCC_3V3
+$Comp
+L auris-rescue:R-Device R36
+U 1 1 5FF3CD9C
+P 6850 1550
+F 0 "R36" H 6920 1596 50  0000 L CNN
+F 1 "1k" H 6920 1505 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 6780 1550 50  0001 C CNN
+F 3 "~" H 6850 1550 50  0001 C CNN
+	1    6850 1550
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6700 1350 6100 1350
+Wire Wire Line
+	6100 1350 6100 1800
+Wire Wire Line
+	6700 1550 6200 1550
+Wire Wire Line
+	6200 1550 6200 2100
+Connection ~ 7050 1350
+Wire Wire Line
+	7050 1350 7150 1350
+Wire Wire Line
+	6100 1800 6450 1800
+Text GLabel 6450 2100 2    50   Input ~ 0
+MG1_MPROT_IN_17
+Wire Wire Line
+	6450 2100 6200 2100
+Wire Wire Line
+	6200 2100 5950 2100
+Connection ~ 6200 2100
+Wire Wire Line
+	5950 2200 6050 2200
+Wire Wire Line
+	5950 2000 6050 2000
+Wire Wire Line
+	6050 2000 6050 2200
+Text GLabel 6050 2900 2    50   Input ~ 0
+MG1_CAN_RX_44
+Text GLabel 6050 3000 2    50   Output ~ 0
+MG1_CAN_TX_45
+$Comp
+L auris-rescue:GND-power #PWR0137
+U 1 1 5FF4CBEF
+P 4450 4100
+F 0 "#PWR0137" H 4450 3850 50  0001 C CNN
+F 1 "GND" V 4455 3972 50  0000 R CNN
+F 2 "" H 4450 4100 50  0001 C CNN
+F 3 "" H 4450 4100 50  0001 C CNN
+	1    4450 4100
+	0    1    1    0   
+$EndComp
+$Comp
+L auris-rescue:GND-power #PWR?
+U 1 1 5FF4E0F9
+P 3150 3350
+AR Path="/5FEC2A71/5FF4E0F9" Ref="#PWR?"  Part="1" 
+AR Path="/5FEC2A00/5FF4E0F9" Ref="#PWR0138"  Part="1" 
+F 0 "#PWR0138" H 3150 3100 50  0001 C CNN
+F 1 "GND" H 3155 3177 50  0000 C CNN
+F 2 "" H 3150 3350 50  0001 C CNN
+F 3 "" H 3150 3350 50  0001 C CNN
+	1    3150 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L auris-rescue:R-Device R?
+U 1 1 5FF4E0FF
+P 2650 4200
+AR Path="/5FEC2A71/5FF4E0FF" Ref="R?"  Part="1" 
+AR Path="/5FEC2A00/5FF4E0FF" Ref="R30"  Part="1" 
+F 0 "R30" V 2550 4200 50  0000 C CNN
+F 1 "1k" V 2650 4200 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2580 4200 50  0001 C CNN
+F 3 "~" H 2650 4200 50  0001 C CNN
+	1    2650 4200
+	0    1    1    0   
+$EndComp
+$Comp
+L auris-rescue:R-Device R?
+U 1 1 5FF4E105
+P 2650 4400
+AR Path="/5FEC2A71/5FF4E105" Ref="R?"  Part="1" 
+AR Path="/5FEC2A00/5FF4E105" Ref="R32"  Part="1" 
+F 0 "R32" V 2750 4400 50  0000 C CNN
+F 1 "1k" V 2650 4400 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2580 4400 50  0001 C CNN
+F 3 "~" H 2650 4400 50  0001 C CNN
+	1    2650 4400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2500 4200 2400 4200
+Wire Wire Line
+	2500 4400 2400 4400
+Wire Wire Line
+	2400 4400 2400 4200
+Connection ~ 2400 4200
+Wire Wire Line
+	2400 4200 2300 4200
+$Comp
+L auris-rescue:R-Device R?
+U 1 1 5FF4E116
+P 2650 4300
+AR Path="/5FEC2A71/5FF4E116" Ref="R?"  Part="1" 
+AR Path="/5FEC2A00/5FF4E116" Ref="R31"  Part="1" 
+F 0 "R31" V 2650 4100 50  0000 C CNN
+F 1 "1k" V 2650 4300 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" V 2580 4300 50  0001 C CNN
+F 3 "~" H 2650 4300 50  0001 C CNN
+	1    2650 4300
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2200 4300 2500 4300
+$Comp
+L auris-rescue:GND-power #PWR?
+U 1 1 5FF4E11E
+P 2200 4300
+AR Path="/5FEC2A71/5FF4E11E" Ref="#PWR?"  Part="1" 
+AR Path="/5FEC2A00/5FF4E11E" Ref="#PWR0139"  Part="1" 
+F 0 "#PWR0139" H 2200 4050 50  0001 C CNN
+F 1 "GND" H 2205 4127 50  0000 C CNN
+F 2 "" H 2200 4300 50  0001 C CNN
+F 3 "" H 2200 4300 50  0001 C CNN
+	1    2200 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2800 4300 2900 4300
+Wire Wire Line
+	2800 4400 3000 4400
+Wire Wire Line
+	3000 4400 3000 4050
+Connection ~ 3000 4400
+Wire Wire Line
+	3000 4400 4550 4400
+Text GLabel 3000 4050 1    50   Input ~ 0
+MG1_DESAT_40
+Text GLabel 2800 4050 1    50   Input ~ 0
+MG1_EMCYSTOP_IN_38
+Wire Wire Line
+	2800 4200 4550 4200
+Wire Wire Line
+	2800 4050 2800 4200
+Connection ~ 2800 4200
+Wire Wire Line
+	2900 4300 2900 4050
+Connection ~ 2900 4300
+Wire Wire Line
+	2900 4300 4550 4300
+Text GLabel 2900 4050 1    50   Input ~ 0
+MG1_BMS_IN_39
+$Comp
+L auris-rescue:C_Small-Device C23
+U 1 1 5FF53CB3
+P 1550 3050
+AR Path="/5FEC2A00/5FF53CB3" Ref="C23"  Part="1" 
+AR Path="/5FEC2A71/5FF53CB3" Ref="C?"  Part="1" 
+F 0 "C23" H 1642 3096 50  0000 L CNN
+F 1 "0,1uF" H 1642 3005 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 1550 3050 50  0001 C CNN
+F 3 "~" H 1550 3050 50  0001 C CNN
+	1    1550 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1750 3050 1650 3050
+Wire Wire Line
+	1450 3050 1300 3050
+$Comp
+L auris-rescue:GND-power #PWR?
+U 1 1 5FF53CBD
+P 1300 3050
+AR Path="/5FEC2A71/5FF53CBD" Ref="#PWR?"  Part="1" 
+AR Path="/5FEC2A00/5FF53CBD" Ref="#PWR0140"  Part="1" 
+F 0 "#PWR0140" H 1300 2800 50  0001 C CNN
+F 1 "GND" V 1305 2922 50  0000 R CNN
+F 2 "" H 1300 3050 50  0001 C CNN
+F 3 "" H 1300 3050 50  0001 C CNN
+	1    1300 3050
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	4550 4100 4450 4100
+Wire Wire Line
+	5950 4000 6050 4000
+Wire Wire Line
+	6050 4000 6050 4100
+Wire Wire Line
+	6050 4100 5950 4100
+Wire Wire Line
+	6050 4100 6250 4100
+Connection ~ 6050 4100
+$Comp
+L auris-rescue:GND-power #PWR0141
+U 1 1 5FF6B429
+P 6250 4100
+F 0 "#PWR0141" H 6250 3850 50  0001 C CNN
+F 1 "GND" V 6255 3972 50  0000 R CNN
+F 2 "" H 6250 4100 50  0001 C CNN
+F 3 "" H 6250 4100 50  0001 C CNN
+	1    6250 4100
+	0    -1   -1   0   
+$EndComp
+Text GLabel 6050 4700 2    50   Input ~ 0
+MG1_PWM_INHIBIT_33
+Wire Wire Line
+	6050 4700 5950 4700
+Text GLabel 4450 3300 0    50   Output ~ 0
+MG1_EXC_OUT
+Wire Wire Line
+	4450 3300 4550 3300
+Wire Wire Line
+	6050 2200 7750 2200
+Connection ~ 6050 2200
+Text GLabel 5250 600  2    50   Input ~ 0
+VCC_3V3
+Text GLabel 3050 950  2    50   Input ~ 0
+VCC_3V3
+Text GLabel 2300 4200 0    50   Input ~ 0
+VCC_3V3
+Text GLabel 6050 4500 2    50   Output ~ 0
+MG1_USART_TX_29
+Text GLabel 6050 4600 2    50   Input ~ 0
+MG1_USART_RX_30
+Text GLabel 6050 3100 2    50   BiDi ~ 0
+MG1_SWDAT_46
+Text GLabel 6050 3200 2    50   BiDi ~ 0
+MG1_SWCLK_49
+Text GLabel 8600 3850 0    50   BiDi ~ 0
+MG1_SWDAT_46
+Text GLabel 8600 4050 0    50   BiDi ~ 0
+MG1_SWCLK_49
+Text GLabel 4400 4700 0    50   Input ~ 0
+MG1_LED_OUT_53
+Text GLabel 1750 3050 2    50   Input ~ 0
+MG1_NRST_7
+Text GLabel 3050 2000 3    50   Output ~ 0
+MG1_LED_OUT_53
+Text GLabel 4450 1800 0    50   Input ~ 0
+MG1_NRST_7
+Wire Wire Line
+	5950 2900 6050 2900
+Wire Wire Line
+	5950 3000 6050 3000
+NoConn ~ 4550 3500
+NoConn ~ 4550 3600
+NoConn ~ 4550 4000
+NoConn ~ 4550 4500
+NoConn ~ 4550 4600
+NoConn ~ 4550 4800
+NoConn ~ 4550 4900
+NoConn ~ 4550 5000
+NoConn ~ 5950 4400
+NoConn ~ 5950 4300
+NoConn ~ 5950 4200
+NoConn ~ 5950 3900
+NoConn ~ 5950 3800
+NoConn ~ 5950 3700
+NoConn ~ 5950 3600
+NoConn ~ 5950 3300
+NoConn ~ 3210 4624
+$EndSCHEMATC
